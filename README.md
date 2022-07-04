@@ -22,34 +22,40 @@ Project consists of creating a Virtual Machine Lab environment to monitor and tr
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Create Virtual Machine of Windows 10 Pro in Microsoft Azure<br/>
+Create Virtual Machine of Windows 10 Pro in Microsoft Azure: <br/>
 <img src="https://imgur.com/H7CfgFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Rename Ethernet Adapters and Set Internal NIC to desired IP,Mask,Gateway,DNS:  <br/>
-<img src="https://imgur.com/odaGn1E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Log Analytic Workspace with Azure:   <br/>
+<img src="https://imgur.com/AOFHWr9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure Local Server for Active Directory Domain Services: <br/>
-<img src="https://imgur.com/rXPlLxA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Set LAW data collection to "All Events": <br/>
+<img src="https://imgur.com/hOcJuje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure Local Server for Remote Acces and install NAT:  <br/>
-<img src="https://imgur.com/WN2kGxm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Connect LAW to Virtual Machine:   <br/>
+<img src="https://imgur.com/Bx2s6jO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure Local Server for DHCP:  <br/>
-<img src="https://imgur.com/DEo4T6K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add Inbound port rules so RDP Port 3389 and Port 0 are open:  <br/>
+<img src="https://imgur.com/uqxHDet.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create Scope for DHCP between 172.16.0.100-200:  <br/>
-<img src="https://imgur.com/3SgUQeW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run PowerShell script to create Log file:  <br/>
+<img src="https://imgur.com/X2dgQP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run PowerShell Script while Unrestricted to add Users from .txt file:  <br/>
-<img src="https://imgur.com/BL2XUHp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Log File output:  <br/>
+<img src="https://imgur.com/X2dgQP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Observe created Users and DHCP Address Lease:  <br/>
+<img src="https://imgur.com/xkw7NwI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm connection in CLIENT1 under created User: jbezos and check for network connectivity:  <br/>
+<img src="https://imgur.com/WO1FCIL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Observe created Users and DHCP Address Lease:  <br/>
 <img src="https://imgur.com/xkw7NwI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
