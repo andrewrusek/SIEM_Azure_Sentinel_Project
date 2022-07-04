@@ -47,21 +47,23 @@ Run PowerShell script to create Log file:  <br/>
 <br />
 <br />
 Log File output:  <br/>
-<img src="https://imgur.com/X2dgQP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/c4ovZUF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe created Users and DHCP Address Lease:  <br/>
-<img src="https://imgur.com/xkw7NwI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create custom Log Fields to hold data from PowerShell Script in LAW:  <br/>
+<img src="https://imgur.com/ZA7mEIp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm connection in CLIENT1 under created User: jbezos and check for network connectivity:  <br/>
-<img src="https://imgur.com/WO1FCIL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Observe created Users and DHCP Address Lease:  <br/>
-<img src="https://imgur.com/xkw7NwI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Set up new Workstation in Microsoft Sentinel and configure Map Visualization:  <br/>
+<img src="https://imgur.com/WGBZuTb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+World Map Tracking Failed RDP Attempts after 5 hours:  <br/>
+<img src="https://imgur.com/9jrkyVt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm connection in CLIENT1 under created User: jbezos and check for network connectivity:  <br/>
-<img src="https://imgur.com/WO1FCIL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Port Scanner made with Python checking to see what ports are open:  <br/>
+<img src="https://imgur.com/zriJdw2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 </p>
 
 <!--
