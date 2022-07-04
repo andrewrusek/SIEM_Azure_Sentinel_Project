@@ -22,8 +22,8 @@ Project consists of creating a Virtual Machine Lab environment to monitor and tr
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Create Virtual Machine environments for both WINDOWS 10 SERVER (2019):DC and WINDOWS 10 (2019):CLIENT1<br/>
-<img src="https://imgur.com/FcCwLNo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create Virtual Machine of Windows 10 Pro in Microsoft Azure<br/>
+<img src="https://imgur.com/H7CfgFF" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Rename Ethernet Adapters and Set Internal NIC to desired IP,Mask,Gateway,DNS:  <br/>
