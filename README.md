@@ -3,7 +3,12 @@
 
 <h2>Description</h2>
 Project consists of creating a Virtual Machine Lab environment to monitor and track RDP login attempts from around the world.  With the use of Microsoft Azure I was able to create a Windows 10 Pro Virtual Machine with an open RDP port.  After setting up the architechture of the Azure environment and creating Log Analytic Workspaces I used a simple PowerShell script to log data from Event Viewer with the failed RDP login attempts. The PowerShell script also used a Geolocation API to create logs of latitude, longitude, and country data from IP addresses associated with the failed attempts. With Microsoft Sentinel I used that data to plot and track exactly when and where these attacks took place on a World Map. 
+<p align ="center">
 <br />
+<img src="https://imgur.com/nhHEhp9.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+</p>
 
 
 <h2>Languages and Utilities Used</h2>
